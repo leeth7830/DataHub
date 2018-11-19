@@ -1,6 +1,6 @@
 # DataHub
 
-A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API and a website. Data will be inserted manually or through API requests.
+A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API and a website. Data will be inserted manually or through API requests. The server will be running a virtual private server and the domain name will be decided in the future.
 
 ## Functionalities
 
