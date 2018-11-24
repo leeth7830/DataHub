@@ -1,4 +1,6 @@
-from datahub import app
+from datahub import create_app
+
+app = create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
