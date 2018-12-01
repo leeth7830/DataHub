@@ -23,7 +23,7 @@ Any user who is interested in using data for analytical, research, or business p
 
 ## Available Data
 
-//to be updated
+US Census Data (https://www.census.gov/data/datasets/2010/dec/demographic-profile-with-geos.html)
 
 ## Getting Started
 
@@ -42,6 +42,7 @@ Any user who is interested in using data for analytical, research, or business p
 * [Flask] (http://flask.pocoo.org/) - Web framework
 * [Bootstrap] (https://getbootstrap.com/) - Front-end framework
 * [PostgreSQL] (https://www.postgresql.org/) - Database
+* [Spark] (https://spark.apache.org/) - Big Data Tool
 
 ## Contributing
 
