@@ -1,20 +1,20 @@
 # DataHub
 
-A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API and a website. The server will written in Python and built with Flask. The front-end will be designed using libraries such as Bootstrap. 
+A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API or a website. The server will built with Flask framework and the front-end will be designed using libraries such as Bootstrap. 
 
-The data will be inserted manually or through API requests. Each type of data will be mapped to a common format so users will be able to easily access the data from different sources. 
+The data will either be downloaeded in csv format or pulled with API requests and inserted into the database via Spark script. Each type of data will be mapped to a common format so users will be able to easily access the data from different sources. 
 
-The server will be running on a virtual private server and the domain name will be decided in the future.
+The server will be running on a virtual private server with a monolithic architecture.
 
 ## Use case
 
-Any user who is interested in using data for analytical, research, or business purposes can come and be able to look up open source data throughout the web. It will have detailed instructions so a beginner can come and learn how to access those data from the server. 
+Any user who is interested in using data for analytical, research, or business purposes will be able to look up open source data throughout the web. It will have detailed instructions so a beginner can come and learn how to access those data from the server. 
 
 ## Functionalities
 
 1. Register/Login
 2. View user info
-3. Settings (Delete account, Chang password, and Night mode)*
+3. Settings (Delete account and Chang password)
 3. List all available data
 4. Search available data
 5. View data details
