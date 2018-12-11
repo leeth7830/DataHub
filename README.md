@@ -15,12 +15,9 @@ Any user who is interested in using data for analytical, research, or business p
 
 1. Register/Login
 2. View user info
-3. Settings (Delete account and Chang password)
-3. List all available data
-4. Search available data
-5. View data details
-6. Map data into a common format*
-7. Display instructions and contact and policy info.
+3. Settings
+4. Map data into a common format
+5. Allow API requests
 
 ## Available Data
 
