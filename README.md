@@ -36,8 +36,9 @@ ID: /api/census/id/
 ### Example API Request: 
 
 /api/census/name/san%20francisco%20city  
+```
 {  
-\t "census": [  
+  "census": [  
     {  
       "country": "US",   
       "county": null,   
@@ -56,7 +57,7 @@ ID: /api/census/id/
     }  
   ]  
 }  
-
+```
 ## Built With
 
 * [Flask] (http://flask.pocoo.org/) - Web framework
