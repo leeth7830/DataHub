@@ -27,7 +27,7 @@ US Census Data (https://www.census.gov/data/datasets/2010/dec/demographic-profil
 
 ### API Documentation  
 Census data:  
-Name: /api/cnesus/name/  
+Name: /api/census/name/  
 ID: /api/census/id/ 
 
 ### Example API Request: 
