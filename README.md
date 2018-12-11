@@ -28,13 +28,13 @@ US Census Data (https://www.census.gov/data/datasets/2010/dec/demographic-profil
 
 ## Getting Started
 
-API Documentation
+<p> API Documentation
 Census data 
 searchable by:
 Name: /api/cnesus/name/
-ID: /api/census/id/
+ID: /api/census/id/ </p>
 
-Example API Request:
+Example API Request: 
 /api/census/name/san%20francisco%20city
 {
   "census": [
