@@ -44,3 +44,46 @@ class Post(db.Model):
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
+
+class Token(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    token = db.Column(db.Text, nullable=False)
+    date_created = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+
+class Census(db.Model):
+    __tablename__ = 'us'
+    __table_args__ = {'schema':'census'}
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.Text)
+    geocomp = db.Column(db.Text)
+    country = db.Column(db.Text)
+    region = db.Column(db.Integer)
+    division = db.Column(db.Text)
+    state = db.Column(db.Text)
+    county = db.Column(db.Text)
+    countycc = db.Column(db.Text)
+    place = db.Column(db.Text)
+    pop_count = db.Column(db.Integer)
+    housing_unit = db.Column(db.Integer)
+    latitude = db.Column(db.Float)
+    longitude = db.Column(db.Float)
+    @property
+    def serialize(self):
+       return {
+           'id': self.id,
+           'name': self.name,
+           'geocomp': self.geocomp,
+           'country': self.country,
+           'region': self.region,
+           'division': self.division,
+           'state': self.state,
+           'county': self.county,
+           'countycc': self.countycc,
+           'place': self.place,
+           'population': self.pop_count,
+           'housing_unit': self.housing_unit,
+           'latitude': self.latitude,
+           'longitude': self.longitude,
+
+       }

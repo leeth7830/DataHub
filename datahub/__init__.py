@@ -25,10 +25,12 @@ def create_app(config_class=Config):
 
     from datahub.users.routes import users
     from datahub.posts.routes import posts
+    from datahub.api.routes import api
     from datahub.main.routes import main
     from datahub.errors.handlers import errors
     app.register_blueprint(users)
     app.register_blueprint(posts)
+    app.register_blueprint(api)
     app.register_blueprint(main)
     app.register_blueprint(errors)
 
