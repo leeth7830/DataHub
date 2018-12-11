@@ -37,7 +37,7 @@ ID: /api/census/id/
 
 /api/census/name/san%20francisco%20city  
 {  
-  "census": [  
+       "census": [  
     {  
       "country": "US",   
       "county": null,   
