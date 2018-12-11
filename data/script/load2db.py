@@ -38,16 +38,13 @@ map = { basepath+"us_census.parquet":"us",
 class QueryException(BaseException):
     pass
 engine = ""
+##commented out user/pass
 if args.prod is True:
-    name = 'prod'
-    key = 'dogdogjim123'
-    #name = Template('prod').substitute(credentials)
-    #key = Template('dogodgjim123').substitute(credentials)
+    name = 
+    key = 
 else:
-    name = 'prod'
-    key = 'dogdogjim123'
-    #name = Template('prod').substitute(credentials)
-    #ey = Template('dogodgjim123').substitute(credentials)
+    name = 
+    key = 
 
 Properties = {'user':name,'password':key, "driver": 'org.postgresql.Driver' }
 
