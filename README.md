@@ -1,6 +1,7 @@
 # DataHub
+http://www.tokencrates.com/
 
-A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API or a website. The server will built with Flask framework and the front-end will be designed using libraries such as Bootstrap. 
+A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API. The server will built with Flask framework and the front-end will be designed using libraries such as Bootstrap. 
 
 The data will either be downloaeded in csv format or pulled with API requests and inserted into the database via Spark script. Each type of data will be mapped to a common format so users will be able to easily access the data from different sources. 
 
@@ -27,15 +28,34 @@ US Census Data (https://www.census.gov/data/datasets/2010/dec/demographic-profil
 
 ## Getting Started
 
-//to be updated
+API Documentation
+Census data 
+searchable by:
+Name: /api/cnesus/name/
+ID: /api/census/id/
 
-## Running the tests
-
-//to be updated
-
-## Deployment
-
-//to be updated
+Example API Request:
+/api/census/name/san%20francisco%20city
+{
+  "census": [
+    {
+      "country": "US", 
+      "county": null, 
+      "countycc": null, 
+      "division": 9, 
+      "geocomp": "00", 
+      "housing_unit": 376942, 
+      "id": 6345, 
+      "latitude": 37.7272391, 
+      "longitude": -123.0322294, 
+      "name": "San Francisco city", 
+      "place": 67000, 
+      "population": 805235, 
+      "region": 4, 
+      "state": 6
+    }
+  ]
+}
 
 ## Built With
 
