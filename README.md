@@ -3,7 +3,7 @@ http://www.tokencrates.com/
 
 A webs server that is capable of storing publicly available data into a database and returning the resources to authorized users through REST API. The server will built with Flask framework and the front-end will be designed using libraries such as Bootstrap. 
 
-The data will either be downloaeded in csv format or pulled with API requests and inserted into the database via Spark script. Each type of data will be mapped to a common format so users will be able to easily access the data from different sources. 
+The data will either be downloaded in csv format or pulled with API requests and inserted into the database via Spark script. Each type of data will be mapped to a common format so users will be able to easily access the data from different sources. 
 
 The server will be running on a virtual private server with a monolithic architecture.
 
